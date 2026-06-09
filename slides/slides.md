@@ -290,7 +290,7 @@ layout: two-cols
 </div>
 
 <div v-click class="flex items-center justify-center">
-  <img src="/r-in-strawberry.png" class="w-full object-contain rounded-lg" style="mix-blend-mode: multiply; max-height: 28rem;" />
+  <img src="./r-in-strawberry.png" class="w-full object-contain rounded-lg" style="mix-blend-mode: multiply; max-height: 28rem;" />
 </div>
 
 </div>
@@ -406,11 +406,11 @@ Demo trực tiếp tại tiktokenizer.vercel.app: gõ "Xin chào, tôi là ngư�
 <div class="grid grid-cols-2 gap-6 mt-4">
   <div v-click class="flex flex-col items-center">
     <div class="text-xs font-bold text-red-400 mb-2">❌ Prompt đơn giản → AI trả lời sai</div>
-    <img src="/image.png" class="rounded-lg w-full object-contain" />
+    <img src="./image.png" class="rounded-lg w-full object-contain" />
   </div>
   <div v-click class="flex flex-col items-center">
     <div class="text-xs font-bold text-green-400 mb-2">✅ Hướng dẫn AI tính trước → đúng</div>
-    <img src="/image-1.png" class="rounded-lg w-full object-contain" />
+    <img src="./image-1.png" class="rounded-lg w-full object-contain" />
   </div>
 </div>
 

@@ -1,7 +1,8 @@
 {
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "dist",
   "rewrites": [
+    { "source": "/slides/(.*)", "destination": "/slides/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
-  ],
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist"
+  ]
 }
